@@ -10,10 +10,11 @@ Our project aims to create an interactive chess board that can:
 *   Guide players with legal move indications
 *   Potentially play against an AI (future development)
 
-## Getting Started
 
-More details on hardware and software setup will be provided soon.
+## Programming 
+* ChessLogic.py: Logic/Rules: Contains the rules of chess with a public interface for verifying chess logic, mainting game data/state.
+* LEDController.py: Interfaces with the Microcontroller to control LED colors/state/brightness etc.
+* SensorReader.py: Interfaces with the Microcontroller to read sensor states from the shift registers.
+* GameManager.py: Main game loop to drive the system.
 
-## Contributing
 
-We welcome contributions! Please feel free to fork the repository and submit pull requests.
